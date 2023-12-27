@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>刺绣文化</title>
+		<link rel="icon" type="image/png" href="img/logo.png" />
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<style>
+		.two li {
+			color: deepskyblue;
+		}
+	</style>
+
+	<body>
+		<div class="grandfather">
+			<div class="father">
+				<div class="one">
+
+				</div>
+				<div class="two">
+					<ul>
+						<li>
+							<a href="index.html">首页</a>
+						</li>
+						<li>
+							<a href="fazhan.html">发展历程</a>
+						</li>
+						<li style="margin-top: -20px;">
+							<a href="yishu.html"><img src="img/hudie.png" /></a>
+						</li>
+						<li>
+							<a href="suxiu.html">苏绣新闻</a>
+						</li>
+
+						<li>
+							<a href="liuyan.html">留言交流</a>
+						</li>
+					</ul>
+				</div>
+				<div class="three">
+					<div class="three1">
+						<h2><a href="bowuguan.html"style="color: deepskyblue;">苏州刺绣博物馆</a></h2>
+						<br />
+						<p>苏州刺绣博物馆位于苏州城中景德路274号。作为中国四大名绣之首的苏绣有着悠久的历史，已有两千多年。 展出大厅面积约300平方米的苏州刺绣博物馆高度概括了这漫长的苏绣艺术史，从展出的共200多件作品中， 参观者可以领路苏绣艺术的演变过程。
+						</p>
+
+						<br />
+						<p>
+							有谷堂内展出西汉到元代的部分绣品实样，其中最为珍贵的是从苏州虎丘塔中获得的苏绣经袱。 四面厅中展出的是明清时期的苏绣绣品和近、现代绣品，其中不乏精品，如清乾隆皇帝高宗弘历朝服等等。 近代苏绣作品展出了我国杰出的刺绣艺术家沈寿的作品，具有很高的观赏价值。展出的现代苏绣艺术作品充分说明苏绣艺术的辉煌前景， 双面异色绣、双面异色异样绣等体现了苏绣艺术正在不断创新开拓。
+						</p>
+					</div>
+					<div class="slideshow">
+						<img src="img/1013.png" />
+						<img src="img/1014.png" />
+						<img src="img/1015.png" />
+					</div>
+
+					<div class="prev">&#10094;</div>
+					<div class="next">&#10095;</div>
+					<script>
+						// 获取元素
+						var slideshow = document.querySelector('.slideshow');
+						var images = document.querySelectorAll('.slideshow img');
+						var prevBtn = document.querySelector('.prev');
+						var nextBtn = document.querySelector('.next');
+
+						// 定义当前显示图片的索引
+						var currentIndex = 0;
+
+						// 设置初始显示图片
+						images[currentIndex].style.display = "block";
+
+						// 点击上一张按钮
+						prevBtn.addEventListener('click', function() {
+							images[currentIndex].style.display = "none";
+							currentIndex = (currentIndex - 1 + images.length) % images.length;
+							images[currentIndex].style.display = "block";
+						});
+
+						// 点击下一张按钮
+						nextBtn.addEventListener('click', function() {
+							images[currentIndex].style.display = "none";
+							currentIndex = (currentIndex + 1) % images.length;
+							images[currentIndex].style.display = "block";
+						});
+					</script>
+				</div>
+				<div class="four">
+					<h1 style="text-align: center; line-height: 60px;margin-bottom: 30px;">展品展览</h2>
+					<div class="four1">
+						<img src="img/four1.jpg" style="width: 300px;height: 300px;">
+					</div>
+					<div class="four2">
+						<img src="img/four2.jpg" style="width: 300px;height: 300px;"/>
+					</div>
+					<div class="four3">
+						<img src="img/four3.jpg" style="width: 300px;height: 300px;" />
+					</div>
+				
+				</div>
+</div>
+</div>
+	</body>
+
+</html>

@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(../img/bg.jpg);
+}
+
+
+
+.father {
+	background-color:#f2f2ea;
+	margin: 0 auto;
+	width: 1200px;
+	height: 1680px;
+	border: solid lightblue;
+	position: relative;
+}
+
+.one {
+	width: 1200px;
+	height: 500px;
+	background-image: url(../img/banner.jpg);
+	background-repeat: no-repeat;
+}
+
+.two {
+	width: 1200px;
+	height: 80px;
+	background-color:#cecfca;
+}
+
+ul {
+	list-style: none;
+}
+
+.two li {
+	float: left;
+	width: 220px;
+	height: 80px;
+}
+
+a:link {
+	display: block;
+	width: 300px;
+	height: 80px;
+	color: black;
+	font-size: 26px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 80px;
+}
+
+a:hover {
+	color: whitesmoke;
+}
+.three{
+	width: 1200px;
+	height: 600px;
+
+	position: relative;
+	margin-top: 30px;
+	
+}
+.three1{
+	width:600px;
+	height: 600px;
+	margin-left: 40px;
+	float: left;
+	margin-right: 70px;
+	font-size: 22px;
+}
+.slideshow {
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	display: flex;
+	margin-top: 70px;
+	
+	border: solid 4px lightgoldenrodyellow;
+}
+
+.img {
+	width: 600px;
+	height: 600px;
+	flex-shrink: 0;
+}
+
+.slideshow img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+}
+
+
+/* 左右按钮的样式 */
+
+.prev,
+.next {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	font-size: 20px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.prev {
+	left: 715px;
+	top: 225px;
+}
+
+.next {
+	right: 87px;
+	top: 225px;
+}
+
+.four{
+	width: 1200px;
+	height: 400px;
+}
+.four1{
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-left: 70px;
+}
+.four2{
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-left: 70px;
+}
+.four3{
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-left:70px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>刺绣文化</title>
+		<link rel="icon" type="image/png" href="img/logo.png" />
+		<link rel="stylesheet" href="css/yishu.css" />
+		<script>
+			function getD1() {
+				var date = new Date();
+				var d1 = date.toLocaleString();
+				document.getElementById("datetime").innerHTML = d1;
+			}
+
+			setInterval("getD1();", 1000);
+		</script>
+
+	</head>
+
+	<body onload=getD1()>
+		
+			<div class="father">
+				<div class="one">
+					<form>
+						<br />
+						<label for="username">账号</label>
+						<input type="text" id="username" name="username" />
+						<br />
+						<label for="password">密码</label>
+						<input type="password" id="password" name="password" />
+						<br />
+						<!--<input type="submit" value="忘记密码" formaction="register.html" />-->
+						<div class="dl"><button type="submit" onclick="validateForm()" formaction="fazhan.html" style="color: deepskyblue;">登录</button></div>
+						<div class="dl1"><button type="submit" formaction="register.html" style="color: deepskyblue;" />注册</div>
+					</form>
+				</div>
+				<div class="two">
+				</div>
+				<div class="three"></div>
+				<div class="four"></div>
+				<div class="five"></div>
+				<div class="six"></div>
+				<div class="seven"></div>
+				<div class="eight"></div>
+				<div class="nine"></div>
+				<div id="datetime" style="width:200px;height: 30px;font-size: 20px;">
+
+				</div>
+			</div>
+		
+	</body>
+
+</html>

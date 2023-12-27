@@ -1,0 +1,245 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(../img/bg.jpg);
+}
+
+.father {
+	background-color: #f2f2ea;
+	margin: 0 auto;
+	width: 1200px;
+	height: 880px;
+	position: relative;
+	border: solid lightblue;
+}
+
+.two {
+	position: absolute;
+	left: 500px;
+	top: 30px;
+	width: 142px;
+	height: 460px;
+	background-image: url(../img/标题.png);
+	animation-name: biaoti;
+	animation-duration: 2s;
+}
+
+@keyframes biaoti {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.three {
+	position: absolute;
+	left: 650px;
+	top: 30px;
+	width: 148px;
+	height: 225px;
+	background-image: url(../img/长安客.png);
+	animation-name: biaoti;
+	animation-duration: 1.5s;
+}
+
+@keyframes biaoti {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.four {
+	position: absolute;
+	left: 50px;
+	top: 30px;
+	width: 109px;
+	height: 700px;
+	background-image: url(../img/1.png);
+	animation-name: biaoti;
+	animation-duration: 1.5s;
+}
+
+@keyframes biaoti {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.five {
+	position: absolute;
+	left: 100px;
+	top: 700px;
+	width: 250px;
+	height: 132px;
+	background-image: url(../img/2.png);
+	animation-name: biaoti;
+	animation-duration: 1.5s;
+}
+
+@keyframes biaoti {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.six {
+	position: absolute;
+	left: 250px;
+	top: 0px;
+	width: 202px;
+	height: 725px;
+	background-image: url(../img/3.png);
+	animation-name: biaoti;
+	animation-duration: 1.5s;
+}
+
+@keyframes biaoti {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.seven {
+	position: absolute;
+	left: 850px;
+	top: 200px;
+	width: 300px;
+	height: 300px;
+	background-image: url(../img/6.png);
+	animation-name: biaoti;
+	animation-duration: 1.5s;
+}
+
+@keyframes biaoti {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.eight {
+	position: absolute;
+	left: 1000px;
+	top: 10px;
+	width: 200px;
+	height: 200px;
+	background-image: url(../img/5.png);
+	animation-name: biaoti;
+	animation-duration: 1.5s;
+}
+
+@keyframes biaoti {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.nine {
+	position: absolute;
+	left: 950px;
+	top: 700px;
+	width: 230px;
+	height: 110px;
+	background-image: url(../img/8.png);
+	animation-name: biaoti;
+	animation-duration: 1.5s;
+}
+
+@keyframes biaoti {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.one {
+	position: absolute;
+	left: 350px;
+	top: 500px;
+	width: 600px;
+	height: 300px;
+}
+
+input[type=password] {
+	width: 300px;
+	height: 45px;
+	padding: 14px 60px;
+	margin: 20px 60px;
+	display: inline-block;
+	border: 1px solid pink;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=text] {
+	width: 300px;
+	height: 45px;
+	padding: 14px 60px;
+	margin: 20px 60px;
+	display: inline-block;
+	border: 1px solid pink;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+button[type=submit] {
+	width: 60px;
+	height: 60px;
+	background-color: white;
+	padding: 14px 0px;
+	margin: 8px 90px;
+	display: inline-block;
+	border: 1px solid pink;
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+
+.dl {
+	float: left;
+	transition-duration: 2s;
+}
+
+.dl:hover {
+	/*color: aliceblue;*/
+	transform: translateX(240px);
+	transition-duration: 1.5s;
+}
+
+.dl1 {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	float: left;
+}
+
+label[for=fname] {
+	margin-left: 20px;
+}
+
+label[for=lname] {
+	margin-left: 20px;
+}
